@@ -3,7 +3,7 @@
 This is a simple website created using HTML, CSS, and JavaScript. The site includes various animations and effects using the following libraries:
 
 - **[GSAP](https://greensock.com/gsap/)**: For staggered page effects and animations.
-- **[Shery.js](https://sheryjs.com/)**: For image effects and text animations.
+- **[Shery.js](https://github.com/aayushchouhan24/sheryjs)**: For image effects and text animations.
 - **[Locomotive Scroll](https://locomotivemtl.github.io/locomotive-scroll/)**: For smooth scrolling effects.
 
 ## Features
