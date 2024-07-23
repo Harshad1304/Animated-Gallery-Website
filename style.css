@@ -1,0 +1,349 @@
+/* Boilerplate code for Css */
+*{
+    font-family: "General Sans";
+    margin: 0;
+    padding: 0;
+    font-family: "Nimbus Sans L", "sans-serif";
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+/* Main div which wrapping all of our pages inside */
+#main{
+    width: 100%;
+}
+
+/* Homepage- Navbar Section */
+#nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw;
+}
+
+#nav-left {
+    display: flex;
+    gap: 30px;
+}
+
+#nav a {
+    display: inline-block;
+    font-weight: 800;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+#nav #center-link{
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* Homepage- Hero Section */
+#hero{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    width: 100%;
+    margin-top: 15vw;
+    padding: 0vw 10vw;
+}
+
+
+/* Left-Side Content  */
+#sustain{
+    width: 10vw;
+}
+#sustain p{
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 800;
+    opacity: .5;
+    margin: 12px 0px;
+}
+
+#sustain #sustain-img-wrapper{
+    overflow: hidden;
+    width: 10vw;
+    height: 14vw;
+   position: relative;
+}
+
+#sustain-img-wrapper img {
+   
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+}
+
+/* Center section */
+
+#hero-center-section{
+    width: 30vw;
+    min-height: 36vw;
+    position: relative;
+}
+
+#hero-center-section h1{
+    font-size: 7vw;
+    font-weight: 100;
+    letter-spacing: -.4vw;
+    line-height: 1;
+}
+
+#hero-center-section #hero-headings{
+    position: absolute;
+    top: -23%;
+    left: -15%;
+}
+
+#hero-center-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#hero-center-section p {
+    margin-top: 20px;
+    font-size: 1.3vw;
+    width: 40%;
+    letter-spacing: -.07vw ;
+    line-height: 1.2;
+}
+
+
+
+#visit-btn{
+    margin-top: -200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#circle-visit{
+    border-radius: 50%;
+    border: 1px solid #979797;
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#circle-visit{
+    color: #979797;
+    font-size: 30px;
+}
+
+#visit-btn h3{
+    font-weight: 400;
+    color: #979797;
+}
+
+
+/* Motive- Page 2 */
+
+#motive-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw;
+    margin-top: 6vw;
+}
+#motive-section h3{
+    font-size: 1.3vw;
+}
+
+#motive-section p{
+    position: relative;
+    line-height: 1.7;
+    right: 0%;
+    letter-spacing: -.12vw;
+    text-align: right;
+    width: 80%;
+    font-size: 2vw;
+}
+
+#motive-section span{
+    display: inline-block;
+    border-radius: 100px;
+    margin: 0 14px;
+    margin-bottom: -13px;
+    
+}
+
+#onespan {
+    background-image: url(./images/bluegirl.jpg);
+    background-size: cover;
+    background-position: 0% 60%;
+    width: 80px;
+    height: 50px;
+}
+
+#twospan{
+    width: 130px;
+    height: 60px;
+    background-image: url(./images/shaljam.jpg);
+    background-size: cover;
+    background-position: 0% 46%;
+}
+
+#threespan{
+    width: 80px;
+    height: 50px;
+    background-image: url(./images/grass.jpg);
+    background-size: cover;
+    background-position: 0% 46%;
+}
+
+/* Picture - Page 3  */
+
+#pictures-page{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8vw;
+    padding: 3vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+}
+#pictures-page #left-section{
+    width: 17vw;
+}
+
+#pictures-page #left-section h1, #right-section h1{
+    font-weight: 100;
+    font-size: 2vw;
+    letter-spacing: -.1vw;
+}
+#pictures-page #left-section p , #right-section p{
+    opacity: .8;
+    font-size: 1vw;
+    letter-spacing: -.05vw;
+    margin-top: 10px;
+}
+
+#pictures-page #left-img{
+    height: 24vw;
+   
+}
+
+#pictures-page #left-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#pictures-page #right-section{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#pictures-page #right-img{
+    width: 100%;
+    height: 38vw;
+}
+#pictures-page #right-img img{
+    width: 100%;
+    height: 100%;
+}
+
+#pictures-page #right-section p{
+    width: 50%;
+}
+
+
+/* Banner - Page 4 */
+
+#banner{
+    padding-left: 2vw;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 8vw;
+   
+}
+
+#banner #banner-picture{
+    width: 65%;
+    height: 60vh;
+   
+    
+}
+#banner #banner-picture img{
+    width: 100%;
+    height: 100%;
+    object-position:0% 70%;
+    object-fit: cover;
+    
+}
+
+#banner #banner-text{
+    width: 35%;
+    padding: 0 3vw;
+}
+#banner #banner-text h1{
+    font-size: 2.4vw;
+    font-weight: 300;
+    letter-spacing: -.15vw;
+    line-height: 1;
+}
+
+#banner #banner-text p{
+   margin-top: 20px;
+   font-size: 1vw;
+   opacity: .8;
+   width: 60%;
+}
+
+#future-section{
+    display: flex;
+   position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+#future-section video{
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+}
+
+#future-section #future-text{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 999;
+    background-color: white;
+    padding: 2vw;
+    border-radius: 10px;
+}
+
+#future-section #future-text button{
+    padding: .8vw 1.6vw;
+    margin-top: 10px;
+    font-size: .7vw;
+    font-weight: 600;
+    border-radius: 100px;
+    background-color: white;
+    border: 1px solid #979797;
+    color: #979797 ;
+}
