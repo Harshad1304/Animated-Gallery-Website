@@ -30,6 +30,6 @@ Simply open the index.html file in your browser to see the animations and effect
 
 - **[GSAP](https://greensock.com/gsap/)**
 
-- **[Shery.js](https://sheryjs.com/)**
+- **[Shery.js](https://github.com/aayushchouhan24/sheryjs)**
 
 - **[Locomotive Scroll](https://locomotivemtl.github.io/locomotive-scroll/)**
